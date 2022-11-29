@@ -1,7 +1,7 @@
 # Fibonacci Number - Recursion (easy)
 
-*Time*: 28 min 9 sec
-*Video*: https://youtu.be/qbsuUxKNQs8
+- *Time*: 28 min 9 sec
+- *Video*: https://youtu.be/qbsuUxKNQs8
 
 ![question image](img/image0.png)
 
