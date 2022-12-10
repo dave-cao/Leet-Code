@@ -1,7 +1,7 @@
 # 1299. Replace Elements with Greatest Element on Right Side
 
 *Time*: 28 min 56 sec
-*Video*:
+*Video*: https://youtu.be/eo41dPNacSA
 
 ![question image](img/image0.png)
 
