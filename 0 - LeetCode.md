@@ -1,6 +1,6 @@
 ---
 created: 2023-12-14T00:03
-updated: 2023-12-14T01:22
+updated: 2023-12-19T12:48
 ---
 
 # Code Problems Database
@@ -16,6 +16,6 @@ TABLE WITHOUT ID
 	dateformat(created, "MMM dd, yyyy") as Date
 FROM #code_problem 
 WHERE !contains(file.path, "Templates")
-SORT file.ctime DESC
+SORT created DESC
 ```
 

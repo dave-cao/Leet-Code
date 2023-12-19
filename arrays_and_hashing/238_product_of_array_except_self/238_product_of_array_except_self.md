@@ -4,7 +4,7 @@ time_elapsed: 46
 difficulty: medium
 completion_method: walkthrough
 created: 2023-12-14T00:17
-updated: 2023-12-14T01:16
+updated: 2023-12-18T14:58
 ---
 # 238 - Product of Array Except Self
 
