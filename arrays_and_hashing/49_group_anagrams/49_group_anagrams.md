@@ -1,6 +1,6 @@
 ---
 created: 2023-12-13T18:30
-updated: 2023-12-18T14:58
+updated: 2023-12-22T11:57
 tag: code_problem
 time_elapsed: 77
 difficulty: medium
@@ -49,8 +49,8 @@ My very first thought was to get the word count for each individual word, then c
 I used the sorted() method to sort every string (since the string sorted will be the same order for every anagram). Then, I put the sorted word as the key within a map. If there is any other word with that same key, then append to a list of that key for the value. Done.
 
 # Complexity
-- Time complexity: O(n)O(n)O(n) (i think)
-- Space complexity: O(n)O(n)O(n)
+- Time complexity: O(n) (i think)
+- Space complexity: O(n)
 
 # Code
 ```python
