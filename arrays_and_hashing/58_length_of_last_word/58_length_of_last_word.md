@@ -3,7 +3,7 @@ tag: code_problem
 time_elapsed: 5
 difficulty: easy
 created: 2023-12-20T15:53
-updated: 2023-12-20T15:53
+updated: 2023-12-20T20:42
 ---
 
 # 58 - Length of Last Word
