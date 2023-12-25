@@ -60,23 +60,16 @@ class Solution:
 
         count = 0
         for i in range(len(flowerbed)):
+            left, right = i - 1, i + 1
 
             if flowerbed[i] == 1:
                 continue
 
-            if i - 1 < 0:
-                left_flower = 0
-            else:
-                left_flower = flowerbed[i - 1]
-            if i + 1 > len(flowerbed) - 1:
-                right_flower = 0
-            else:
-                right_flower = flowerbed[i + 1]
+            left_flower = 0 if left < 0 else flowerbed[left]
+            right_flower = 0 if right >= len(flowerbed) else flowerbed[right]
 
             if left_flower == 0 and right_flower == 0:
                 count += 1
                 flowerbed[i] = 1
-
         return count >= n
-
 ```
