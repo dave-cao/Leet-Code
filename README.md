@@ -1,8 +1,10 @@
 ---
 created: 2023-12-13T17:14
-updated: 2023-12-18T14:58
+updated: 2024-01-05T13:06
 ---
 # Documenting My Progress in Leet Code
+
+Daily LeetCode questions.
 
 ## Will comprise of technical folders following NeetCode.io roadmap:
 
