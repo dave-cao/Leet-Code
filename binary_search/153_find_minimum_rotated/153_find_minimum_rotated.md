@@ -1,12 +1,20 @@
 ---
 tag: code_problem
 difficulty: medium
-time_elapsed: 1
+time_elapsed: 27
 created: 2024-01-17T18:21
 updated: 2024-01-17T18:21
 ---
 
 # 153 - Find Minimum in Rotated Sorted Array
+
+## Quick Notes
+
+- Binary search
+- If mid is in left quadrant, then minimum is in right quadrant
+- If mid is in right quadrant, then minimum is to the left of it (still in the right quadrant)
+
+---
 
 Suppose an array of length n sorted in ascending order is rotated between 1 and n times. For example, the array nums = [0,1,2,4,5,6,7] might become:
 
@@ -44,3 +52,44 @@ n == nums.length
 -5000 <= nums[i] <= 5000
 All the integers of nums are unique.
 nums is sorted and rotated between 1 and n times.
+
+---
+
+# Intuition
+<!-- Describe your first thoughts on how to solve this problem. -->
+If the array is sorted, then we can split the array into two qudrants. The left and right quadrant. Using binary search, if our mid is in the left quadrant, then the minimum is going to be in the right quadrant. If our mid is in the right quadrant, then our minimum is going to be on the left of it (or it is it).
+
+# Approach
+<!-- Describe your approach to solving the problem. -->
+Get the mid. Figure out if it is in the left or right quadrant (based on index 0 element), and shift mid accordingly.
+
+# Complexity
+- Time complexity: $O(logn)$
+
+- Space complexity: $O(1)$
+
+# Code
+```python
+class Solution:
+    def findMin(self, nums: list[int]) -> int:
+        # condition ends when left == right
+
+        left, right = 0, len(nums) - 1
+        minimum = nums[0]
+        while left <= right:
+            mid = (right + left) // 2
+            # if our middle number is bigger
+            # then we are in the left quadrant
+            # so check the right quadrant
+            if nums[mid] >= nums[0]:
+                left = mid + 1
+            # if our middle number is less
+            # then we are in the right qudrant
+            # so check the left quadrant
+            elif nums[mid] < nums[0]:
+                right = mid - 1
+                minimum = min(minimum, nums[mid])
+        return minimum
+
+
+```
