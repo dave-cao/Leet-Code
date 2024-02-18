@@ -54,7 +54,7 @@ I created a map that kept track of the nodes. If I encountered a node already, t
 # Complexity
 - Time complexity: $O(n)$ ~ worst case we go through the full linked list
 
-- Space complexity: $O(1)$ ~ we are not storing anything
+- Space complexity: $O(n)$ ~ we are storing into a hashmap
 
 # Code
 ```python
