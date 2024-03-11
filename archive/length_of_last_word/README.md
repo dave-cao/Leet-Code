@@ -1,9 +1,13 @@
+---
+created: 2024-02-04T12:50
+updated: 2024-03-06T01:20
+---
 # 58. Length of Last Word
 
 - *Time*: 7 min 7 sec
 - *Video*:
 
-![question image](img/image0.png)
+![question image](Permanent/Education/coding_interview/LeetCode/archive/length_of_last_word/img/image0.png)
 
 What do we know?
 1. We are given a string with words and spaces, we want to return the length of

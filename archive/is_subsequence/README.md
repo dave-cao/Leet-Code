@@ -1,8 +1,12 @@
+---
+created: 2024-02-04T12:50
+updated: 2024-03-06T01:20
+---
 # 392. Is Subsequence
 
 *Video*: https://youtu.be/YajDstn_JNc
 
-![question image](img/image0.png)
+![question image](Permanent/Education/coding_interview/LeetCode/archive/is_subsequence/img/image0.png)
 
 What do we know?
 1. we are giving two strings, s and t

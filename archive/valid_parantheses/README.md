@@ -1,9 +1,13 @@
+---
+created: 2024-02-04T12:50
+updated: 2024-03-06T01:20
+---
 # Valid Parentheses
 
 *Time*: 1+ hour -- looked at solution
 *Video*: https://youtu.be/H7WBVBvM8e4
 
-![question image](img/image0.png)
+![question image](Permanent/Education/coding_interview/LeetCode/archive/valid_parantheses/img/image0.png)
 
 
 ## Run Down

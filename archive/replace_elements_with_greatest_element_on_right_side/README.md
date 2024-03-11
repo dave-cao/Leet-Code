@@ -1,9 +1,13 @@
+---
+created: 2024-02-04T12:50
+updated: 2024-03-06T01:20
+---
 # 1299. Replace Elements with Greatest Element on Right Side
 
 *Time*: 28 min 56 sec
 *Video*: https://youtu.be/eo41dPNacSA
 
-![question image](img/image0.png)
+![question image](Permanent/Education/coding_interview/LeetCode/archive/replace_elements_with_greatest_element_on_right_side/img/image0.png)
 
 
 

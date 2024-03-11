@@ -1,9 +1,13 @@
+---
+created: 2024-02-04T12:50
+updated: 2024-03-06T01:20
+---
 # 217. Contains Duplicate
 
 *Time*: 8min 23sec
 *Video*: https://youtu.be/LIaChj9d-1s
 
-![question image](img/image0.png)
+![question image](Permanent/Education/coding_interview/LeetCode/archive/contains_duplicate/img/image0.png)
 
 
 
@@ -17,4 +21,4 @@ What we Know:
 We can store each value we go pass into another dictionary or list.
 Use the in operator to compare if other list contains a duplicate already
 
-![My leetcode post](img/image1.png)
+![My leetcode post](image1.png)

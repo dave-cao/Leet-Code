@@ -1,9 +1,13 @@
+---
+created: 2024-02-04T12:50
+updated: 2024-03-06T01:20
+---
 # Fibonacci Number - Recursion (easy)
 
 - *Time*: 28 min 9 sec
 - *Video*: https://youtu.be/qbsuUxKNQs8
 
-![question image](img/image0.png)
+![question image](Permanent/Education/coding_interview/LeetCode/archive/fibonacci_number/img/image0.png)
 
 ## Notes
 

@@ -1,8 +1,12 @@
+---
+created: 2024-02-04T12:50
+updated: 2024-03-06T01:20
+---
 # Merge Two Sorted Lists
 
 *Video*:
 
-![question image](img/image0.png)
+![question image](Permanent/Education/coding_interview/LeetCode/archive/merge_two_sorted_lists/img/image0.png)
 
 
 What we know:
