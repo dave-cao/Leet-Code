@@ -2,6 +2,8 @@
 tag: code_problem
 time_elapsed: 37
 difficulty: easy
+created: 2024-03-10T18:28
+updated: 2024-03-11T10:58
 ---
 
 # 543 - Diameter of a Binary Tree
