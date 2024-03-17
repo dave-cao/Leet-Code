@@ -1,6 +1,5 @@
 ---
 created: 2023-12-13T17:14
-updated: 2024-01-05T13:06
 ---
 # Documenting My Progress in Leet Code
 
